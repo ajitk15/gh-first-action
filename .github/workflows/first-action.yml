@@ -6,10 +6,10 @@ jobs:
     steps:
       - name: Print Greetings
         run: echo "Hello World!"
-      - name: Whoami
-        run: whoami
-      - name: OS version
-        run: uname -r
+      - name: OS details 
+        run: |
+          whoami
+          uname -r
       - name: Print Good bye
         run: echo "Good Bye!"
     
